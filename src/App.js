@@ -8,9 +8,9 @@ function App() {
   const [advice, setAdvice] = useState('')
   const [color, setColor] = useState('')
 
+  // To show the first advice on the first render of the App
   useEffect(() => {
     fetchData();
-    randomColor()
   }, [])
  
   const fetchData = () => {
