@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Skranji&display=swap');
+
+* {
+  font-family: 'Cinzel', serif;
+}
+
+.advice-card-container {
+  width: 550px;
+  height: 200px;
+  background-color:chartreuse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 3px solid #ef233c;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+  z-index: 1;
+  margin-top: 20px;
+
+}
+button:hover:after {
+  top: 0;
+  left: 0;
+}
+button:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: #ef233c;
+}
