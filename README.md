@@ -1,3 +1,10 @@
+
+React App that is consuming API for the random advice while using React Hooks: useState() & useEffect()
+
+![Screenshot 2022-06-17 at 19 14 44](https://user-images.githubusercontent.com/95942547/174347036-a47fc14b-aa96-4b01-8249-b373ad9e2d4c.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
